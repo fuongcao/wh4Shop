@@ -4,12 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wh4Shop.Api", "wh4Shop.Api\wh4Shop.Api.csproj", "{FB69357B-C120-420C-8A1E-F30ADC506C3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB45AA23-E776-4BEC-BB7B-4C70CC5D812E} = {EB45AA23-E776-4BEC-BB7B-4C70CC5D812E}
+		{437E01FA-040D-4E00-9C71-909C4F8BB8AB} = {437E01FA-040D-4E00-9C71-909C4F8BB8AB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wh4Shop.WebApp", "wh4Shop.WebApp\wh4Shop.WebApp.csproj", "{51F7BEED-E3BA-42C7-ADC7-DDAA09C1E7BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7EDE3D09-823B-4C66-B482-9D17D7EB4B11}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wh4Shop.AppCore", "wh4Shop.AppCore\wh4Shop.AppCore.csproj", "{437E01FA-040D-4E00-9C71-909C4F8BB8AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB45AA23-E776-4BEC-BB7B-4C70CC5D812E} = {EB45AA23-E776-4BEC-BB7B-4C70CC5D812E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wh4Shop.DataEntity", "wh4Shop.DataEntity\wh4Shop.DataEntity.csproj", "{EB45AA23-E776-4BEC-BB7B-4C70CC5D812E}"
 EndProject
